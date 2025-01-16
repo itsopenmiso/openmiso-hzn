@@ -21,7 +21,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	"github.com/hashicorp/waypoint-hzn/pkg/server"
+	"github.com/itsopenmiso/openmiso-hzn/pkg/server"
 )
 
 var (

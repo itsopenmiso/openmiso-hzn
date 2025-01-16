@@ -8,8 +8,8 @@ import (
 	hznpb "github.com/hashicorp/horizon/pkg/pb"
 	"google.golang.org/grpc/peer"
 
-	"github.com/hashicorp/waypoint-hzn/pkg/models"
-	"github.com/hashicorp/waypoint-hzn/pkg/pb"
+	"github.com/itsopenmiso/openmiso-hzn/pkg/models"
+	"github.com/itsopenmiso/openmiso-hzn/pkg/pb"
 )
 
 var (

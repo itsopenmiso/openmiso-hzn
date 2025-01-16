@@ -5,7 +5,7 @@ import (
 	hznpb "github.com/hashicorp/horizon/pkg/pb"
 	"github.com/jinzhu/gorm"
 
-	"github.com/hashicorp/waypoint-hzn/pkg/pb"
+	"github.com/itsopenmiso/openmiso-hzn/pkg/pb"
 )
 
 // service implements pb.WaypointHznServer.

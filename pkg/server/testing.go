@@ -12,8 +12,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 
-	"github.com/hashicorp/waypoint-hzn/internal/testsql"
-	"github.com/hashicorp/waypoint-hzn/pkg/pb"
+	"github.com/itsopenmiso/openmiso-hzn/internal/testsql"
+	"github.com/itsopenmiso/openmiso-hzn/pkg/pb"
 )
 
 // TestServer starts a server and returns various data such as the client

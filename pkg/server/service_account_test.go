@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/waypoint-hzn/pkg/pb"
+	"github.com/itsopenmiso/openmiso-hzn/pkg/pb"
 )
 
 func TestServiceRegisterGuestAccount(t *testing.T) {

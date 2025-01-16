@@ -1,4 +1,4 @@
-module github.com/hashicorp/waypoint-hzn
+module github.com/openmiso/openmiso-hzn
 
 go 1.19
 

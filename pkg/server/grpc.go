@@ -3,14 +3,14 @@ package server
 import (
 	"time"
 
-	petname "github.com/hashicorp/waypoint-hzn/internal/pkg/golang-petname"
+	petname "github.com/itsopenmiso/openmiso-hzn/internal/pkg/golang-petname"
 	hznpb "github.com/hashicorp/horizon/pkg/pb"
 	"github.com/oklog/run"
 	"google.golang.org/grpc"
 	grpchealth "google.golang.org/grpc/health"
 	healthpb "google.golang.org/grpc/health/grpc_health_v1"
 
-	"github.com/hashicorp/waypoint-hzn/pkg/pb"
+	"github.com/itsopenmiso/openmiso-hzn/pkg/pb"
 )
 
 // grpcInit initializes the gRPC server and adds it to the run group.

@@ -9,14 +9,14 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/horizon/pkg/dbx"
 	hznpb "github.com/hashicorp/horizon/pkg/pb"
-	petname "github.com/hashicorp/waypoint-hzn/internal/pkg/golang-petname"
+	petname "github.com/itsopenmiso/openmiso-hzn/internal/pkg/golang-petname"
 	"github.com/jinzhu/gorm"
 	"github.com/mitchellh/mapstructure"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/hashicorp/waypoint-hzn/pkg/models"
-	"github.com/hashicorp/waypoint-hzn/pkg/pb"
+	"github.com/itsopenmiso/openmiso-hzn/pkg/models"
+	"github.com/itsopenmiso/openmiso-hzn/pkg/pb"
 )
 
 var (
